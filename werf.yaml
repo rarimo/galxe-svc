@@ -1,8 +1,8 @@
 configVersion: 1
-project: 'backend'
+project: 'galxe-svc'
 ---
 image: builder
-from: golang:1.20-alpine
+from: golang:1.22-alpine
 docker:
   WORKDIR: /go/src/github.com/rarimo/galxe-svc
 git:
